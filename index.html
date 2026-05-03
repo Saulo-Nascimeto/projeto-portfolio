@@ -12,11 +12,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-brain"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+                <li><a href="#" id="botao-tema"><i class="fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -159,13 +159,63 @@
             </article> <!--Fim article#skills-->
             <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i>Formação</h2>
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2015-2019</p>
+                        <h3 class="instituicao">Colégio Estudal Hamiltos Rios de Araújo</h3>
+                        <p class="titulacao">Técnico em informática</p>
+                    </div>
+                    <div class="curso">
+                        <p class="periodo">2019-2023</p>
+                        <h3 class="instituicao">Colégio Padre José Antônio dos Reis</h3>
+                        <p class="titulacao"> Digitação interativa</p>
+                    </div>
+                </div>
             </article> <!--Fim article#formacao-->
             <article id="projetos">
                 <h2><i class="fa-solid fa-trowel-bricks"></i>Projetos</h2>
+                <div id="projeto-container">
+                    <div class="projeto"> <!--projeto 01-->
+                        <img src="imagens/projeto-01-videos.jpg" alt="projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projeto de vídeos</h3>
+                            <p>Projeto construido para treinar a inserção de vídeos em nosso site.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis voluptatem modi aut quaerat explicabo officiis, id porro, distinctio ipsum fuga molestias numquam sequi neque iure unde possimus cumque aliquid fugit?</p>
+                            </details>
+                        </div>
+                        <div class="projeto"> <!--projeto 02-->
+                        <img src="imagens/projeto-03-android.jpg" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projeto de vídeos</h3>
+                            <p>Projeto construido para treinar conteúdos e imagens dinâmicas.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis voluptatem modi aut quaerat explicabo officiis, id porro, distinctio ipsum fuga molestias numquam sequi neque iure unde possimus cumque aliquid fugit?</p>
+                            </details>
+                        </div>
+                        <div class="projeto"> <!--projeto 03-->
+                        <img src="imagens/projeto-02-cordel.jpg">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projeto de vídeos</h3>
+                            <p>Projeto construido para treinar efeito paralax em imagens.</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis voluptatem modi aut quaerat explicabo officiis, id porro, distinctio ipsum fuga molestias numquam sequi neque iure unde possimus cumque aliquid fugit?</p>
+                            </details>
+                        </div>
+                    </div>
+
+                </div>
             </article> <!--Fim article#projetos-->
         </section>
     </main>
     <footer>
+        <p>Portfólido desenvolvido por <a href="#">Cursoemvideo</a> em 2026</p>
     </footer>
     <script src="scripts/script.js"></script>
 </body>
