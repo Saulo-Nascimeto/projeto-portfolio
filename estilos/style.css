@@ -74,7 +74,6 @@ section#ficha {
   padding: 20px;
   border-radius: 8px;
   grid-column: 2;
-  
 }
 section#ficha img.foto {
   width: 200px;
@@ -232,10 +231,6 @@ footer a {
 footer a:hover {
   color: var(--destaque-inverso);
 }
-@media screen and (min-width: 768px) {
-  main {
-    grid-template-columns: auto 300px 1fr auto;
-  }
   section#ficha {
     grid-column: 2 / 3;
     height: fit-content;
@@ -259,5 +254,9 @@ footer a:hover {
     aspect-ratio: 1/1;
     max-width: 20%;
     max-height: 200px;
+  }
+@media screen and (min-width: 768px) {
+  main {
+    grid-template-columns: auto 300px 1fr auto;
   }
 }
